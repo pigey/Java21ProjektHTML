@@ -97,10 +97,13 @@ h1{
     height: .5em;
 }
 /* Contact */
-
+h2{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
 form{
     width: 100%;
-    height: 30em;
 }
 .contact{
     text-align: center;
@@ -109,7 +112,7 @@ label{
     display: flex;
     flex-direction: row;
     color: white;
-    margin-left: 46%;
+    margin-left: 47%;
 
 }
 .send-message-cta{
@@ -123,7 +126,6 @@ label{
     padding: .4em;
     width: unset;
     cursor: pointer;
-    float: bottom;
     
 }
 .textArea{
