@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #242629;
+}
+.navbar{
+    background: rgb(107, 107, 107);
+}
+.logo{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #323b30;
+    
+}
+
+.navbar .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-content: space-between;
+    }
+
+
+
+ul{
+    list-style-type: none;
+    color:rgb(235, 235, 235);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.profile-list{
+    background: #333;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin:1em auto 5em auto;
+    border-radius: 1em;
+    
+    
+}
+.profile-pic{
+        width: 5em;
+        height: 7.3em;
+        border: 5px solid #262626;
+        border-radius: 1.5em;
+        margin-top: -3em;
+        
+}
+
+
+/* Graph Start */
+.center{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    background: #333;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+h1{
+    margin: 0;
+    margin-left: 0.1em;
+    padding: 0;
+    color: white;
+    letter-spacing: .1em;
+}
+.skillBox{
+    box-sizing: border-box;
+    width: 99%;
+    margin: 1.2em .2em;
+}
+.skillBox p{
+    color: white;
+    margin: 0 0 1em;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.skillBox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -2.1em;
+}
+.skill{
+    background: #262626;
+    padding: .1em;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.skill_level{
+    background: rgb(59, 245, 59);
+    width: 100%;
+    height: .5em;
+}
+
+
+@media only screen and (min-width: 768px) {
+    ul{
+        list-style-type: none;
+        color:rgb(235, 235, 235);
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .profile-list{
+        background: #333;
+        text-align: left;
+        padding: 2em 1em;
+        margin:1em auto 5em auto;
+        border-radius: 1em;
+        display: flex;
+        place-content: space-between;
+
+        
+        
+    }
+    .profile-pic{
+            width: 10em;
+            height: 14em;
+            border: 5px solid #262626;
+            border-radius: 1.5em;
+            margin: 0;
+    }
+
+    .intro-text{
+        font-size: 1.3em;
+    }
+
+}
+
