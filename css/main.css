@@ -97,36 +97,9 @@ h1{
     height: .5em;
 }
 /* Contact */
-
-label {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: .5em;
-  }
-  
-  input, textarea {
-    width: 50%;
-    padding: .8em;
-    margin-bottom: 1em;
-    border-radius: .3em;
-    border: 1px solid grey;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  .send-message-cta {
-    background-color: var(--primary-color);
-    color: white;
-    font-size: 1.3em;
-    font-weight: bold;
-    border: none;
-    margin-bottom: 5em;
-    border-radius: 5em;
-    display: inline-block;
-    padding: .8em .2em;
-    width: unset;
-    cursor: pointer;
-  }
+.contact{
+    
+}
 
 @media only screen and (min-width: 768px) {
     ul{
