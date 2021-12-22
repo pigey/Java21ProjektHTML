@@ -141,6 +141,26 @@ label{
 .input-box{
     width: 50%;
 }
+.check-row{
+  display: flex;
+  -ms-flex-align: start;
+  border: 3px solid #333;
+  width: 50%;
+  margin-left: 25%;
+}
+.check-box{
+    border: 1px solid #333;
+    width: 33.33%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.checkbox-label{
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
 
 @media only screen and (min-width: 768px) {
     ul{
