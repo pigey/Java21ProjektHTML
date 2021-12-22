@@ -6,6 +6,12 @@ body{
 .navbar{
     background: rgb(107, 107, 107);
 }
+.container-fluid{
+    background: rgb(107, 107, 107);
+}
+.navbar-toggler{
+    background: rgb(182, 181, 181);
+}
 .logo{
     text-decoration: none;
     font-size: 2em;
