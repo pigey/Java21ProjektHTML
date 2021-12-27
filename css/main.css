@@ -35,7 +35,14 @@ body{
 .center h2{
     text-align: center;
     font-size: 1.8em;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    text-decoration: underline;
 }
+.center{
+    margin-top: 2%;
+}
+
 
 .navbar .container {
         display: -webkit-box;
@@ -201,7 +208,7 @@ img {vertical-align: middle;}
 
     background-color: #0000009f ;
     color: white;
-    font-size: 11px;
+    font-size: 13px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
