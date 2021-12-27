@@ -170,9 +170,13 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 300px; 
     position: relative;
     margin: auto;
+}
+
+.slideshow-container img {
+    width: 100%;
 }
 
 /* Caption text */
@@ -180,7 +184,7 @@ img {vertical-align: middle;}
 
     background-color: #0000009f ;
     color: white;
-    font-size: 15px;
+    font-size: 11px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -231,9 +235,9 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-}
+} */
 
 
 
@@ -267,6 +271,10 @@ img {vertical-align: middle;}
 
     .intro-text{
         font-size: 1.3em;
+    }
+
+    .slideshow-container {
+        max-width: 400px;
     }
 
 }
