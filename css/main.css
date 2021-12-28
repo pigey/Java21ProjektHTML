@@ -19,10 +19,7 @@ body{
     color: #323b30;
     
 }
-.backgroundImg{
-    background-image: url("images/bakgrund.jpg");
-    background-color: #cccccc;
-}
+
 .desc-welcome{
     text-align: center;
     color: rgb(224, 224, 224);
@@ -317,6 +314,8 @@ img {vertical-align: middle;}
     .slideshow-container {
         max-width: 400px;
     }
-
+    #portfolio.center{
+        align-items: center;
+    }
 }
 
