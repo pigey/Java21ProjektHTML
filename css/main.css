@@ -157,17 +157,17 @@ label{
     
 }
 .textArea{
-    width: 50%;
+    width: 100%;
 }
 
 .input-box{
-    width: 50%;
+    width: 100%;
 }
 .check-row{
-  display: flex;
-  -ms-flex-align: start;
-  border: 3px solid #333;
-  width: 100%;
+    display: flex;
+    -ms-flex-align: start;
+    border: 3px solid #333;
+    width: 100%;
 }
 .check-box{
     border: 1px solid #333;
@@ -304,6 +304,22 @@ img {vertical-align: middle;}
     }
     #portfolio.center{
         margin-top: 7.5%;
+    }
+
+    .check-row{
+        display: flex;
+        -ms-flex-align: start;
+        border: 3px solid #333;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .textArea{
+        width: 50%;
+    }
+    
+    .input-box{
+        width: 50%;
     }
 }
 
