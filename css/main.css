@@ -264,6 +264,11 @@ img {vertical-align: middle;}
     margin-bottom: 20px;
     margin-top: 10px;
 }
+/* Navbar */
+#navbar{
+    margin: 0; 
+    padding: 0;
+}
 
 #bakgrund-portfolio {
     background-image: url("../images/bakgrund.jpg");
