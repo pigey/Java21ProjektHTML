@@ -265,6 +265,10 @@ img {vertical-align: middle;}
     margin-top: 10px;
 }
 
+#bakgrund-portfolio {
+    background-image: url("../images/bakgrund.jpg");
+}
+
 
 @media only screen and (min-width: 768px) {
     ul{
