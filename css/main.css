@@ -140,11 +140,8 @@ form{
     text-align: center;
 }
 label{
-    display: flex;
-    flex-direction: row;
+    display: block;
     color: white;
-    margin-left: 47%;
-
 }
 .send-message-cta{
     background: #333;
