@@ -170,8 +170,7 @@ label{
   display: flex;
   -ms-flex-align: start;
   border: 3px solid #333;
-  width: 50%;
-  margin-left: 25%;
+  width: 100%;
 }
 .check-box{
     border: 1px solid #333;
